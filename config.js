@@ -6,7 +6,7 @@ window.GUARDIAN_STATIC = {
   // the web copy of the video the analysis ran on: /content/guardian_run/stream.mp4 from Colab, renamed.
   // It must be that file (or a re-encode with the same frame rate and length), not the original camera file.
   // Can also be a full https:// URL if you host the video elsewhere.
-  video: "video.mp4",
+  video: "stream.mp4",
 
   // folder with the step evidence frames (/content/guardian_run/evidence/*.jpg). Missing images are simply hidden.
   evidence: "evidence/",
