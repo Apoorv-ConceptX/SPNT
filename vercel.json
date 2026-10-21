@@ -1,0 +1,12 @@
+{
+  "cleanUrls": true,
+  "headers": [
+    { "source": "/(.*)\\.mp4", "headers": [
+      { "key": "Cache-Control", "value": "public, max-age=86400" },
+      { "key": "Access-Control-Allow-Origin", "value": "*" }
+    ] },
+    { "source": "/results.json", "headers": [ { "key": "Cache-Control", "value": "public, max-age=300" } ] },
+    { "source": "/config.js", "headers": [ { "key": "Cache-Control", "value": "no-cache" } ] },
+    { "source": "/", "headers": [ { "key": "Cache-Control", "value": "no-cache" } ] }
+  ]
+}
